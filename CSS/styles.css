@@ -22,7 +22,9 @@ header {
 .nav-bar {
     list-style: none;
     color:rgba(150, 218, 235, 0.89);
-    margin-top:10px
+    margin-top:10px;
+    margin-right:40px
+    
 
 }
  nav ul a {
@@ -35,9 +37,24 @@ nav li {
     
 }
 
+.background-image {
+    margin-bottom:60px
+    
+    
+    
+}
+.subtitle-pic {
+    width:1360px;
+    height:200px;
+    
+}
 .subtitle {
 display: inline;
 text-align: end;
+background-color:rgba(150, 218, 235, 0.89);
+color:rgba(6, 6, 29, 0.808);
+
+
 }
 
 .picture-me {
