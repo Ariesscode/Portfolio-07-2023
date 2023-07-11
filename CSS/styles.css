@@ -11,3 +11,29 @@ header {
     background-color:rgba(28, 28, 51, 0.808)
     
 }
+
+.my-name {
+    font-family: trebuchet ms;
+    background-color:rgba(150, 218, 235, 0.89);
+    color:rgba(6, 6, 29, 0.808);
+    
+}
+
+.nav-bar {
+    list-style: none;
+    color:rgba(150, 218, 235, 0.89);
+    margin-top:10px
+
+}
+ nav ul a {
+    color:rgba(150, 218, 235, 0.89);
+    
+}
+
+nav li {
+    display:inline
+    
+}
+
+
+
