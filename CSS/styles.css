@@ -1,6 +1,6 @@
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 0;
+    margin-top:0;
 
 }
 
@@ -9,7 +9,6 @@ header {
     display: flex;
     justify-content: space-between;
     background-color:rgba(28, 28, 51, 0.808)
-
     
 }
 
@@ -17,14 +16,17 @@ header {
     font-family: trebuchet ms;
     background-color:rgba(150, 218, 235, 0.89);
     color:rgba(6, 6, 29, 0.808);
+    padding-top:30px;
     padding-left:40px;
-    padding-right:5px
+    padding-right:5px;
+    padding-bottom:10px
+    
 }
 
 .nav-bar {
     list-style: none;
     color:rgba(150, 218, 235, 0.89);
-    margin-top:10px;
+    margin-top:15px;
     margin-right:40px
     
 
@@ -46,8 +48,9 @@ nav li {
     
 }
 .subtitle-pic {
-    width:1360px;
-    height:200px;
+    width:1333px;
+    height:150px;
+    margin-top:0;
     
 }
 .subtitle {
@@ -64,3 +67,4 @@ color:rgba(6, 6, 29, 0.808);
     Height:250px;
     
 }
+
