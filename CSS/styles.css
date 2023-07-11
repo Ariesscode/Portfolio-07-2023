@@ -9,6 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color:rgba(28, 28, 51, 0.808)
+
     
 }
 
@@ -16,7 +17,8 @@ header {
     font-family: trebuchet ms;
     background-color:rgba(150, 218, 235, 0.89);
     color:rgba(6, 6, 29, 0.808);
-    
+    padding-left:40px;
+    padding-right:5px
 }
 
 .nav-bar {
