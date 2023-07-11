@@ -35,6 +35,10 @@ nav li {
     
 }
 
+.subtitle {
+display: inline;
+text-align: end;
+}
 
 .picture-me {
     width: 200px;
