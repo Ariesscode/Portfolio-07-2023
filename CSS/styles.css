@@ -1,70 +1,46 @@
-* {
+body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top:0;
+    padding: 0;
+    
 
 }
-
 
 header {
-    display: flex;
+    display:flex;
     justify-content: space-between;
-    background-color:rgba(28, 28, 51, 0.808)
+    background-color: pink;
+    padding-left: 40px;
+    padding-right: 40px;
     
 }
 
-.my-name {
-    font-family: trebuchet ms;
-    background-color:rgba(150, 218, 235, 0.89);
-    color:rgba(6, 6, 29, 0.808);
-    padding-top:30px;
-    padding-left:40px;
-    padding-right:5px;
-    padding-bottom:10px
-    
-}
+
 
 .nav-bar {
-    list-style: none;
-    color:rgba(150, 218, 235, 0.89);
-    margin-top:15px;
-    margin-right:40px
+    background-color: rgb(248, 176, 200);
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-top:10px
     
-
 }
- nav ul a {
-    color:rgba(150, 218, 235, 0.89);
-    
+
+nav ul a {
+   color:white;
+   justify-content: center;
+   padding: 20px;
+   
+
+
 }
 
 nav li {
-    display:inline
+    display: inline
     
-}
-
-.background-image {
-    margin-bottom:60px
-    
-    
-    
-}
-.subtitle-pic {
-    width:1333px;
-    height:150px;
-    margin-top:0;
-    
-}
-.subtitle {
-display: inline;
-text-align: end;
-background-color:rgba(150, 218, 235, 0.89);
-color:rgba(6, 6, 29, 0.808);
-
-
 }
 
 .picture-me {
-    width: 200px;
-    Height:250px;
-    
+    display: inline-flex;
+    width:200px;
+    height:250px;
 }
-
