@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin:0;
+    padding:0;
 }
 
 body {
@@ -24,8 +26,8 @@ header {
 
 
 .my-name {
-    background-color:white;
-    color: black
+    background-color:green;
+    color: white;
     
     
     
@@ -34,7 +36,7 @@ header {
 .nav-bar {
     background-color: rgb(238, 233, 237);
     padding-right: 20px;
-    margin-bottom:5px;
+    margin-bottom:20px;
     margin-top:20px
 
     
@@ -54,24 +56,6 @@ nav li {
     
 }
 
-
-.picture-me {
-    display: inline-flex;
-    width:200px;
-    height:250px;
-    margin-left:0px
-}
-
-.flex-container {  
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.item {
-    width: 200px;
-      background-color:blue
-      
-}
 .banner {
     background-image: url("../images/banner\ image.jpg");
     height:100px;
@@ -79,16 +63,22 @@ nav li {
     justify-content: flex-end;
     padding-right: 20px;
     
+    
 
 }
 
 .banner h2 {
-    background-color:black;
-    color:green;
-    height: 30px;
+    background-color:white;
+    color:black;
+    height: 40px;
+    padding-top: 5px;
     padding-right: 10px;
     padding-left:10px;
-    
+    border-style:solid;
     
 }
 
+.flexbox {
+    display:flex;
+    align-items:center;
+}
