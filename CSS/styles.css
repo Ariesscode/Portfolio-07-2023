@@ -83,7 +83,11 @@ nav li {
 }
 
 .banner h2 {
-    background-color:green;
+    background-color:black;
+    color:green;
+    height: 30px;
+    padding-right: 10px;
+    padding-left:10px;
     
     
 }
