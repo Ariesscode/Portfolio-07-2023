@@ -4,16 +4,6 @@
     padding:0;
 }
 
-body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top:0;
-    padding: 0;
-    justify-content: center;
-    position: relative;
-    
-
-}
-
 header {
     display:flex;
     justify-content: space-between;
@@ -93,3 +83,4 @@ nav li {
     border-right: 2px solid black;
     margin-right: 20px;
 }
+
