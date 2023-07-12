@@ -67,7 +67,7 @@ nav li {
 
 }
 
-.banner h2 {
+.banner h3 {
     background-color:white;
     color:black;
     height: 40px;
@@ -81,10 +81,15 @@ nav li {
 .flexbox {
     display:flex;
     align-items:center;
+    height:200px;
+    margin-left: 20px;
+    text-align: right;
+    
+    
 }
 
 .flexbox h1 {
-    flex-basis: 20%;
-    border-right: 1px solid black;
-    margin-right: 8px;
+    flex-basis: 10%;
+    border-right: 2px solid black;
+    margin-right: 20px;
 }
