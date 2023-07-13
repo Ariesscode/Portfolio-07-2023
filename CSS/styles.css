@@ -67,11 +67,11 @@ nav ul {
 
 .app-cards {
     display:flex;
-    flex-wrap:nowrap;
-    width:700px;
-    padding-left:75px;
-    height:500px;
-    position:relative;
+    flex-wrap:wrap;
+    width:80%
+    
+    
+    
     
 
 }
@@ -79,28 +79,32 @@ nav ul {
 .app-cards h2 {
     border-right:2px solid black;
     padding-right:5px;
-    margin-right:15px;
+    margin-right:20px;
+    margin-left:75px;
+    
+    
     
 }
 
 .horiseon-card {
     background-image: url(../Images/Horiseon\ .jpeg);
     width:700px;
-    height:250px;
     border:5px solid pink;
-    position:absolute;
-    margin-left:80px
+    height:250px
+    
+    
     
     
 }
 .led-card {
     display:flex;
+    margin-left:160px;
     background-image: url(../Images/Led\ wall.jpg);
-    width: 225px;
-    height:80px;
+    width: 350px;
+    height:90px;
     border: 5px solid pink;
     padding-top:30px;
-    margin:10px;
+    margin-top:10px
     
     
     
@@ -108,28 +112,34 @@ nav ul {
 
 .calculator-card {
     background-image:url(../Images/calculator.jpg);
-    width:225px;
-    height:80px;
+    width:350px;
+    height:90px;
     padding-top:30px;
     border:5px solid pink;
-    margin:10px;
+    margin-left:10px;
+    margin-top:10px;
+    
+   
 }
 
 .pastel-card {
     background-image: url(../Images/Pastel\ puzzles.jpg);
-    width:225px;
-    height:80px;
+    width:350px;
+    height:90px;
     padding-top: 40px;
     border:5px solid pink;
-    margin-top:10px
+    margin-left:160px;
+    margin-top:10px;
+ 
 
 }
 
 .runbuddy-card {
     background-image: url(../Images/Run\ Buddy.jpg);
-    width:225px;
-    height:80px;
+    width:350px;
+    height:90px;
     padding-top:40px;
     border:5px solid pink;
-    
+    margin-left:10px;
+    margin-top:10px;
 }
