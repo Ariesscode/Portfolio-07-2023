@@ -21,4 +21,8 @@ nav ul {
     list-style-type: none;
     justify-content: space-between;
     min-width:300px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    padding-top:10px;
+    padding-right:30px;
 }
