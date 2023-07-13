@@ -64,3 +64,11 @@ nav ul {
     padding-left:15px;
     font-size:12px;
 }
+
+.app-cards {
+    display:flex;
+    width:800px;
+    padding-left:80px;
+    height:400px;
+
+}
