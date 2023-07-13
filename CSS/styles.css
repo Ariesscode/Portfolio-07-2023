@@ -26,3 +26,12 @@ nav ul {
     padding-top:10px;
     padding-right:30px;
 }
+
+.banner {
+    background-image: url(../Images/bannerimage.jpg);
+    display:flex;
+    justify-content: flex-end;
+    height:100px;
+    padding-top:70px;
+    padding-right:50px;
+}
