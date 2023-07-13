@@ -67,9 +67,11 @@ nav ul {
 
 .app-cards {
     display:flex;
+    flex-wrap:wrap;
     width:800px;
     padding-left:75px;
     height:400px;
+    position:relative;
 
 }
 
@@ -82,5 +84,16 @@ nav ul {
 .horiseon-card {
     background-image: url(../Images/Horiseon\ .jpeg);
     width:800px;
+    height:200px;
+    border:5px solid pink;
+    position:relative;
+    margin-left:80px
     
+    
+}
+.led-card {
+    background-image: url(../Images/Led\ wall.jpg);
+    width: 200px;
+    height:60px;
+    border: 5px solid pink;
 }
