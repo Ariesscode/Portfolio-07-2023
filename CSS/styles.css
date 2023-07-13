@@ -51,5 +51,11 @@ nav ul {
     padding-left:70px;
     padding-top:20px;
     margin-bottom:50px;
-    
+
+}
+
+.about-me h2 {
+    border-right: 2px solid black;
+    padding-right:5px;
+    text-align:right;
 }
