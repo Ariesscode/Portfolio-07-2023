@@ -3,3 +3,11 @@
     margin:0;
     padding:0;
 }
+
+.main-header {
+    display:flex;
+    justify-content:space-between;
+    background-color: yellow;
+    color:blue;
+    padding-left:30px;
+}
