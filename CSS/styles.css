@@ -93,12 +93,27 @@ nav ul {
 }
 .led-card {
     background-image: url(../Images/Led\ wall.jpg);
-    width: 200px;
-    height:60px;
+    width: 225px;
+    height:80px;
     border: 5px solid pink;
+    padding-top:30px;
+    margin:0px;
 }
 
 .calculator-card {
-    background-image: url
-    width:200px;
+    background-image:url(../Images/calculator.jpg);
+    width:225px;
+    height:80px;
+    padding-top:30px;
+    border:5px solid pink;
+    
+}
+
+.pastel-card {
+    background-image: url(../Images/Pastel\ puzzles.jpg);
+    width:225px;
+    height:80px;
+    padding-top: 30px;
+    border:5px solid pink;
+
 }
