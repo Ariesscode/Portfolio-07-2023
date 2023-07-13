@@ -1,19 +1,29 @@
 *{
     box-sizing:border-box;
-    margin:0;
     padding:0;
+    margin:0;
+    font-family:'Times New Roman', Times, serif;
+
 }
+
+body {
+    width:100%;
+    position:relative;
+}
+
 
 .main-header {
     display:flex;
     justify-content:space-between;
-    background-color: yellow;
-    color:blue;
+    background-color:rgb(6, 7, 7);
+    color:white;
     padding-left:30px;
 }
 
 .myname {
-    background-color:green;
+    background-color:pink;
+    color:black;
+    padding-left:10px;
 }
 
 nav ul {
@@ -43,103 +53,108 @@ nav ul {
     padding-left:5px;
 }
 
+
 .about-me {
+    background-color:white;
     display:flex;
     text-align:left;
-    width:800px;
-    height:165px;
-    padding-left:70px;
-    padding-top:20px;
-    margin-bottom:50px;
-
+    padding-top:60px;
+    padding-right:80px;
+    padding-left:120px;
+    
 }
-
 .about-me h2 {
-    border-right: 2px solid black;
-    padding-right:5px;
     text-align:right;
+    border-right:2px solid black;
+    padding-right:5px;
+    height:150px;
+    
+    
+    
+
 }
 
 .about-me p {
+    color:black;
+    font-weight:bold;
     padding-left:15px;
-    font-size:12px;
+    width:100%
 }
 
-.app-cards {
+
+.Work-cards {
+    background-color:white;
     display:flex;
     flex-wrap:wrap;
-    width:80%
-    
-    
-    
-    
-
-}
-
-.app-cards h2 {
-    border-right:2px solid black;
-    padding-right:5px;
-    margin-right:20px;
-    margin-left:75px;
-    
-    
-    
-}
-
-.horiseon-card {
-    background-image: url(../Images/Horiseon\ .jpeg);
-    width:700px;
-    border:5px solid pink;
-    height:250px
-    
-    
-    
-    
-}
-.led-card {
-    display:flex;
-    margin-left:160px;
-    background-image: url(../Images/Led\ wall.jpg);
-    width: 350px;
-    height:90px;
-    border: 5px solid pink;
-    padding-top:30px;
-    margin-top:10px
-    
-    
-    
-}
-
-.calculator-card {
-    background-image:url(../Images/calculator.jpg);
-    width:350px;
-    height:90px;
-    padding-top:30px;
-    border:5px solid pink;
-    margin-left:10px;
-    margin-top:10px;
+    padding-top:60px;
+    padding-right:100px;
+    padding-left:151px;
     
    
+    
 }
 
-.pastel-card {
-    background-image: url(../Images/Pastel\ puzzles.jpg);
-    width:350px;
-    height:90px;
-    padding-top: 40px;
-    border:5px solid pink;
-    margin-left:160px;
-    margin-top:10px;
- 
-
+.Work-cards h2 {
+    text-align:right;
+    border-right:2px solid black;
+    padding-right:5px;
+    
 }
 
-.runbuddy-card {
-    background-image: url(../Images/Run\ Buddy.jpg);
-    width:350px;
-    height:90px;
-    padding-top:40px;
-    border:5px solid pink;
+.box-1 {
+    background-image: url(../Images/Horiseon\ .jpeg);
+    height:250px;
+    width:800px;
+    margin-left:20px;
     margin-left:10px;
-    margin-top:10px;
+    margin-bottom:10px;
+    
+
+}
+
+.Work-cards h3 {
+    background-color:black;
+    padding-left:30px;
+    color:red;
+    
+}
+    
+    
+.box-2 {
+    background-image: url(../Images/Led\ wall.jpg);
+    height:80px;
+    width:400px;
+    margin-left:73px;
+    border:2px solid yellow;
+    margin-right:10px;
+    
+}
+
+.box-3 {
+    background-image: url(../Images/calculator.jpg);
+    height:80px;
+    width:400px;
+    border:2px solid pink;
+    margin-right:1px;
+    
+}
+
+.box-4 {
+    background-image: url(../Images/Pastel\ puzzles.jpg);
+    height:80px;
+    width:400px;
+    margin:10px;
+    margin-left:73px;
+    border:2px solid black;
+    
+}
+
+.box-5 {
+    background-image: url(../Images/Run\ Buddy.jpg);
+    height:80px;
+    width:400px;
+    margin:10px;
+    margin-left:1px;
+    border:2px solid yellow;
+    
 }
