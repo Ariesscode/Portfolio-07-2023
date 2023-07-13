@@ -35,3 +35,16 @@ nav ul {
     padding-top:70px;
     padding-right:50px;
 }
+
+.banner h3 {
+    background-color:yellow;
+    margin-bottom:7px;
+    padding-right:5px;
+    padding-left:5px;
+}
+
+.about-me {
+    display:flex;
+    text-align:left;
+    width:800px
+}
