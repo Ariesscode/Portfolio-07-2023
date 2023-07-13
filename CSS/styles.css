@@ -11,3 +11,12 @@
     color:blue;
     padding-left:30px;
 }
+
+.myname {
+    background-color:green;
+}
+
+nav ul {
+    display:flex;
+    list-style-type: none;
+}
