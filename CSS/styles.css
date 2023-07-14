@@ -2,7 +2,10 @@
  box-sizing:border-box;
  margin:0;
  padding:0;
+ 
 }
+
+
 
 .main-header {
 display: flex;
@@ -33,7 +36,7 @@ nav ul  {
    
 .banner {
    background-image: url(../Images/banner.jpg);
-    height:200px;
+    height:100px;
 
 }
 
@@ -41,6 +44,8 @@ nav ul  {
 
 .horiseon img {
     width:40px;
+    margin-left: 40%;
+
 }
 
 .runbuddy img {
@@ -68,27 +73,63 @@ nav ul  {
 
 .about-wrapper {
     background-color:yellow;
+    display:flex;
+    
+    margin-bottom:30px;
+    margin-right:20px
+    
+   
+    
+    
+
 }
 
 .about-wrapper p {
     background-color:pink;
+
+    text-align:center;
+    
+    
+    
+    
+    
 }
 
 .about-wrapper h2 {
     background-color:beige;
+    text-align:center;
+    
+
+    
+    
+    
 }
 
 .work h2 {
     background-color: yellow;
+    text-align:center;
+    width:1;
     
-    }
+}
+
 .work {
     background-color:aqua;
     position: relative;
     display:flex;
     text-align:center;
     
+    margin-right:20px;
 
-}
+   }
+
+   .pictureme img {
+    position:relative;
+    left:40%;
+    margin-bottom:40px;
+    
+   }
+    
+
+
 
 
