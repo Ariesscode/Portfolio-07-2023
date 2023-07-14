@@ -80,6 +80,15 @@ nav ul  {
 
 .work h2 {
     background-color: yellow;
+    
+    }
+.work {
+    background-color:aqua;
+    position: relative;
+    display:flex;
+    text-align:center;
+    
+
 }
 
 
