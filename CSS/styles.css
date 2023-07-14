@@ -46,11 +46,18 @@ nav ul  {
     width:30%;
     height:50%;
     display:flex;
-
+    position: relative;
+    left:35%;
+    z-index:10;
 }
 .horiseon p {
     background-color:yellow;
     width:30%;
+
+    position:relative;
+    left:25%;
+    bottom:50px;
+    z-index:56;
 }
 
 .runbuddy img {
@@ -126,6 +133,7 @@ nav ul  {
     flex-wrap:wrap;
     margin-right:100px;
     margin-left:30px;
+    
    
 
    }
