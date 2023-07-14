@@ -62,27 +62,62 @@ nav ul  {
 
 .runbuddy img {
     width:250px;
-    height:70px;
+    height:80px;
+    border:2px solid black;
    
+}
+
+.runbuddy p {
+    color:black;
+    background-color:yellow;
+
 }
 
 .pastel img {
     width:250px;
-    height:70px;
+    height:80px;
+    border:2px solid black;
+    margin-right:20px;
+
+}
+.pastel p {
+    background-color:yellow;
+    color:black;
+
 
 }
 
 .calculator img {
     width:250px;
-    height:70px;
+    height:80px;
+    border:2px solid black;
+    margin:20px;
+    
 
+}
+.calculator p {
+    color:black;
+    background-color:yellow;
+    
+    
+
+    
 }
 
 .led-wall img {
     width:250px;
-    height:70px;
+    height:80px;
     position:relative;
+    border:2px solid black;
+    margin:20px;
+    z-index:20;
     
+}
+
+.led-wall p {
+    background-color:yellow;
+    color:black;
+
 }
 
 .about-wrapper {
@@ -134,7 +169,7 @@ nav ul  {
     text-align:center;
     flex-wrap:wrap;
     margin-right:100px;
-    margin-left:30px;
+    margin-left:100px;
     
    
 
