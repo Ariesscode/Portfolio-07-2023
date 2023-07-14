@@ -61,27 +61,28 @@ nav ul  {
 }
 
 .runbuddy img {
-    width:40px;
-    height:40px;
-    margin-bottom:30px;
+    width:250px;
+    height:70px;
+   
 }
 
 .pastel img {
-    width:40px;
-    height:40px;
+    width:250px;
+    height:70px;
 
 }
 
 .calculator img {
-    width:40px;
-    height:40px;
+    width:250px;
+    height:70px;
 
 }
 
 .led-wall img {
-    width:40px;
-    height:40px;
-    position:
+    width:250px;
+    height:70px;
+    position:relative;
+    
 }
 
 .about-wrapper {
