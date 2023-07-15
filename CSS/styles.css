@@ -231,10 +231,18 @@ nav ul  {
     content:"Status:Hi! I need more practice in flexbox layout!😁";
     position: relative;
     left:250px;
+    color:blue;
+    
     
 }
 
 .resume:hover {
     color:red;
     text-shadow:0cqb;
+}
+
+ .work img:hover {
+content:"";
+box-shadow:  0 13px yellow;
+
 }
