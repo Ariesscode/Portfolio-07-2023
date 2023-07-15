@@ -18,7 +18,9 @@ there will be clickable images of my work, first one being my previous app work.
 When user clicks my previous work, they will then be sent to that app address. 
 When user scrolls to my contact information, there they will have clickable links and also
 a "github" link to my profile in github. It will send them to the gihub address.
+I have added psuedo elements to different elements to give the portfolio some personality.
 User will see semantic elements and divs used to fill extra sections added to the portfoli, such as resume that will be uploaded soon. Challeneges that I have faced were the flexbox properties and getting the sizing of my containers to adjust to any screen viewport. I will in the future practice and get extra guidance on this model. Also, I am going to continue to work on this project, make changes and upload my final project to insert my solutions to issues I had to build this portfolio using flexbox model.
+
 
 
 ## Acceptance Criteria
