@@ -205,26 +205,19 @@ nav ul  {
     display:block;
     padding-left:100px;
   
-    
-    
-    
-
-   }
+}
 
    .contact li {
     list-style-type: none;
     float:left;
     padding-right:60px;
     
-    
-
-   }
+}
    .contact a {
     color:black;
     font-weight:bolder;
     
-
-   }
+}
 
 
 .resume {
@@ -234,3 +227,14 @@ nav ul  {
 
 }
 
+ .pictureme::after {
+    content:"Status:Hi! I need more practice in flexbox layout!😁";
+    position: relative;
+    left:250px;
+    
+}
+
+.resume:hover {
+    color:red;
+    text-shadow:0cqb;
+}
