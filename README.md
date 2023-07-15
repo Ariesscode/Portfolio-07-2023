@@ -1,17 +1,24 @@
 # 02 Advanced CSS: Portfolio
 
-## Your Task
+## Task
+As a website developer,
+I am requested to build a portfolio with no starter code. My task is to use flexbox as a base to organize my structure for styling my portfolio.
 
 
 
 
-## User Story
+## Website Description
 
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
+Given a task to meet client request of building a portfolio using the flexbox model.
+When the user access the  portfolio, there will be a current photo of myself with a short description about me.
+When user clicks navigation links, it will guide and scroll to matching section to make it easier and more accessible to user.
+Each image has "alt" text to make the page more accessible.
+When user clicks on  the work button from the navigation bar, 
+there will be clickable images of my work, first one being my previous app work. 
+When user clicks my previous work, they will then be sent to that app address. 
+When user scrolls to my contact information, there they will have clickable links and also
+a "github" link to my profile in github. It will send them to the gihub address.
+User will see semantic elements and divs used to fill extra sections added to the portfoli, such as resume that will be uploaded soon. Challeneges that I have faced were the flexbox properties and getting the sizing of my containers to adjust to any screen viewport. I will in the future practice and get extra guidance on this model. Also, I am going to continue to work on this project, make changes and upload my final project to insert my solutions to issues I had to build this portfolio using flexbox model.
 
 
 ## Acceptance Criteria
@@ -39,6 +46,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following animation shows the web application's appearance and functionality:
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
 
+![Alt text](02-advanced-css-homework-demo.gif)
 
