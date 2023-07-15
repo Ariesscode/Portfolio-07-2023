@@ -5,6 +5,10 @@
  
 }
 
+body {
+    background-color:black;
+}
+
 
 
 .main-header {
@@ -45,16 +49,8 @@ nav ul  {
     border:2px solid black;
     z-index:10;
     position:relative;
+    height:auto;
     
-    
-    
-    
-   
-    
-    
-    
-    
-   
 }
 
 .horiseon p {
@@ -156,14 +152,16 @@ nav ul  {
 }
 
 .about-wrapper p {
-    background-color:pink;
+    background-color:green;
     text-align:center;
+    font-weight:bold;
     
 }
 
 .about-wrapper h2 {
-    background-color:beige;
+    background-color:black;
     text-align:center;
+    color:white;
     
 }
 
@@ -175,20 +173,13 @@ nav ul  {
 }
 
 .work {
-    background-color:aqua;
+    background-color:black;
     display:flex;
     flex-wrap:wrap;
     position:relative;
     justify-content:center;
     margin-left:200px;
     margin-right:200px;
-    
-    
-
-    
-    
-    
-   
     
 }
 
@@ -199,8 +190,48 @@ nav ul  {
     margin-top:30px;
     
    }
+
+    
+   .contact {
+    background-color:black;
+    display:flex;
+    justify-content:space-between;
+    
+   }
+
+   .contact h2 {
+    height:60px;
+    background-color:black;
+    color:white;
+    text-align:right;
+    display:block;
+    padding-left:100px;
+  
+    
+    
     
 
+   }
+
+   .contact li {
+    list-style-type: none;
+    float:left;
+    padding-right:60px;
+    
+
+   }
+   .contact a {
+    color:white;
+    font-weight:bolder;
+    
+
+   }
 
 
+.resume {
+    display:block;
+    justify-content:center;
+    text-align:center;
+
+}
 
